@@ -687,9 +687,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\mine\\azhang.git\\NetCore.Spider\\NetCore.Spider.Service\\NetCore.Spider.Service.csproj",
       "projectName": "NetCore.Spider.Service",
@@ -728,7 +725,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },

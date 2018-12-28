@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NetCore",
+    "\\NetCore\\bin",
+    "\\NetCore\\bin\\Debug",
+    "\\NetCore\\bin\\Debug\\netcoreapp2.1"
   ],
+  "SelectedNode": "\\DB.txt",
   "PreviewInSolutionExplorer": false
 }
