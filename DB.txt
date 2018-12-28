@@ -1,4 +1,4 @@
-USE [NetCoreSprider1]
+USE [NetCoreSprider]
 GO
 
 /****** Object:  Table [dbo].[CrawHistory]    Script Date: 2018/12/24 0:32:00 ******/
@@ -22,7 +22,7 @@ GO
 
 
 
-USE [NetCoreSprider1]
+USE [NetCoreSprider]
 GO
 
 /****** Object:  Table [dbo].[Link]    Script Date: 2018/12/24 0:32:22 ******/
@@ -48,7 +48,7 @@ GO
 
 
 
-USE [NetCoreSprider1]
+USE [NetCoreSprider]
 GO
 
 /****** Object:  Table [dbo].[PageContext]    Script Date: 2018/12/24 0:32:35 ******/

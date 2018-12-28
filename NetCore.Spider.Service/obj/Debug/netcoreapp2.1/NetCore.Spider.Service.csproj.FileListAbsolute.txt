@@ -7,3 +7,12 @@ C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spi
 C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfo.cs
 C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
 C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.deps.json
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.csprojAssemblyReference.cache
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.csproj.CoreCompileInputs.cache
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfoInputs.cache
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfo.cs
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
+C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
