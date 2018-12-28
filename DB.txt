@@ -1,0 +1,79 @@
+USE [NetCoreSprider1]
+GO
+
+/****** Object:  Table [dbo].[CrawHistory]    Script Date: 2018/12/24 0:32:00 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CrawHistory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[LinkStepCode] [int] NOT NULL,
+	[Url] [nvarchar](500) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+
+USE [NetCoreSprider1]
+GO
+
+/****** Object:  Table [dbo].[Link]    Script Date: 2018/12/24 0:32:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Link](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[LinkTypeCode] [int] NOT NULL,
+	[CatalogType] [int] NOT NULL,
+	[Url] [nvarchar](500) NOT NULL,
+	[PageTitle] [nvarchar](500) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+
+USE [NetCoreSprider1]
+GO
+
+/****** Object:  Table [dbo].[PageContext]    Script Date: 2018/12/24 0:32:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PageContext](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[LinkId] [int] NOT NULL,
+	[Context] [nvarchar](500) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[PageContext]  WITH CHECK ADD  CONSTRAINT [FK_PageContext_Link1] FOREIGN KEY([LinkId])
+REFERENCES [dbo].[Link] ([Id])
+GO
+
+ALTER TABLE [dbo].[PageContext] CHECK CONSTRAINT [FK_PageContext_Link1]
+GO
+
+

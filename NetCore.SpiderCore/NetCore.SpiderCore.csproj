@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.9.11" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Model\NetCore.Model.csproj" />
+    <ProjectReference Include="..\NetCore.Spider.Business\NetCore.Spider.Common.csproj" />
+    <ProjectReference Include="..\NetCore.Spider.Repository\NetCore.Spider.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

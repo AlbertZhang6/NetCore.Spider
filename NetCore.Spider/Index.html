@@ -1,0 +1,74 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <table id="myTable" class="table">
+        <thead>
+            <tr>
+                <th>督导小组</th>
+                <th>组员</th>
+                <th>组长</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="myTb"></tbody>
+    </table>
+
+    <div class="container" style="display:none">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                User..........<input type="text" id="userid" />
+                <br />
+                Message...<input type="text" id="message" />
+                <input type="button" id="btnSend" value="Send Message" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                <ul id="msglist"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    @*
+    <script src="wwwroot/lib/jquery/dist/jquery.js"></script>*@
+    <script src="~/lib/signalr/dist/browser/signalr.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //服务地址
+            //https://localhost:44354/
+            //let hubConnection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+            let hubUrl = 'http://localhost:44354/chathub';
+            let httpConnection = new signalR.HttpConnection(hubUrl);
+            let hubConnection = new signalR.HubConnection(httpConnection);
+
+            $("#btnSend").click(function () {
+                //新建对象
+                let obj = new Object();
+                obj.UserName = $('#userid').val();
+                obj.Message = $('#message').val();
+                //调用服务器方法
+                hubConnection.invoke('SendMsg', obj);
+            });
+
+            //服务器回调方法
+            hubConnection.on('Show', data => {
+                $('#msglist').append($('<li>').text(data));
+            });
+
+            hubConnection.start();
+        });
+    </script>
+</body>
+</html>

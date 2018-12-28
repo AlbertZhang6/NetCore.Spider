@@ -1,0 +1,9 @@
+C:\own\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.deps.json
+C:\own\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
+C:\own\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.csprojAssemblyReference.cache
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.csproj.CoreCompileInputs.cache
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfoInputs.cache
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfo.cs
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
+C:\own\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
