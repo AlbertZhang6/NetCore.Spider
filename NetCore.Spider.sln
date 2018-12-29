@@ -22,7 +22,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{15
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.SpiderCore", "NetCore.SpiderCore\NetCore.SpiderCore.csproj", "{A9C117AB-78B7-429D-925D-3B7149F739CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.WebApi", "NetCore.Spider.WebApi\NetCore.Spider.WebApi.csproj", "{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Spider.WebApi", "NetCore.Spider.WebApi\NetCore.Spider.WebApi.csproj", "{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{AE5E4D71-F9CB-477A-897A-7555C0419242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.Redis", "NetCore.Spider.Redis\NetCore.Spider.Redis.csproj", "{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.Extension", "NetCore.Spider.Extension\NetCore.Spider.Extension.csproj", "{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,9 +68,21 @@ Global
 		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FCE391D-1176-4F06-8F8A-B324CC9D2C60} = {AE5E4D71-F9CB-477A-897A-7555C0419242}
+		{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A} = {AE5E4D71-F9CB-477A-897A-7555C0419242}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A762E843-20E6-46BB-92C1-AF1A581F5637}
