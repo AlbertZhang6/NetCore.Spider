@@ -20,7 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{15
 		DB.txt = DB.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.SpiderCore", "NetCore.SpiderCore\NetCore.SpiderCore.csproj", "{A9C117AB-78B7-429D-925D-3B7149F739CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.SpiderCore", "NetCore.SpiderCore\NetCore.SpiderCore.csproj", "{A9C117AB-78B7-429D-925D-3B7149F739CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.WebApi", "NetCore.Spider.WebApi\NetCore.Spider.WebApi.csproj", "{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{A9C117AB-78B7-429D-925D-3B7149F739CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9C117AB-78B7-429D-925D-3B7149F739CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9C117AB-78B7-429D-925D-3B7149F739CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE32B21-6A84-4E0E-AA67-2FBBF47504EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
