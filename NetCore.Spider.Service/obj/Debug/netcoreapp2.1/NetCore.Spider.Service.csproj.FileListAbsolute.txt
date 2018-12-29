@@ -16,11 +16,3 @@ C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetC
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfo.cs
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.deps.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\bin\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.csproj.CoreCompileInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfoInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.AssemblyInfo.cs
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Service\obj\Debug\netcoreapp2.1\NetCore.Spider.Service.pdb

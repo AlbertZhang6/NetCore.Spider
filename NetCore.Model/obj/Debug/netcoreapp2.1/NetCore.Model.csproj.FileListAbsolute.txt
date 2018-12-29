@@ -16,12 +16,3 @@ C:\Albert.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model
 C:\Albert.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.AssemblyInfo.cs
 C:\Albert.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.dll
 C:\Albert.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\bin\Debug\netcoreapp2.1\NetCore.Model.deps.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\bin\Debug\netcoreapp2.1\NetCore.Model.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\bin\Debug\netcoreapp2.1\NetCore.Model.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.csprojAssemblyReference.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.csproj.CoreCompileInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.AssemblyInfoInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.AssemblyInfo.cs
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Model\obj\Debug\netcoreapp2.1\NetCore.Model.pdb

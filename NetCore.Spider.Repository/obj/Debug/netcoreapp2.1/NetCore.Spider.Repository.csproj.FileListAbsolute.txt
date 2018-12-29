@@ -26,17 +26,3 @@ C:\Albert.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\N
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.csproj.CopyComplete
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.dll
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.deps.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.runtimeconfig.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.runtimeconfig.dev.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Model.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\bin\Debug\netcoreapp2.1\NetCore.Model.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.csprojAssemblyReference.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.csproj.CoreCompileInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.AssemblyInfoInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.AssemblyInfo.cs
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.csproj.CopyComplete
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Repository\obj\Debug\netcoreapp2.1\NetCore.Spider.Repository.pdb

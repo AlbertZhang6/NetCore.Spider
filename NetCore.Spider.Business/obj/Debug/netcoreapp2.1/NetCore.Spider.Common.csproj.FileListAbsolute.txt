@@ -12,17 +12,3 @@ C:\Albert.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\Net
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.csproj.CopyComplete
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.dll
 C:\Albert.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Spider.Common.deps.json
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Spider.Common.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Spider.Common.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Model.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Spider.Repository.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\bin\Debug\netcoreapp2.1\NetCore.Model.pdb
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.csprojAssemblyReference.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.csproj.CoreCompileInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.AssemblyInfoInputs.cache
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.AssemblyInfo.cs
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.csproj.CopyComplete
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.dll
-C:\mine\azhang.git\NetCore.Spider\NetCore.Spider.Business\obj\Debug\netcoreapp2.1\NetCore.Spider.Common.pdb
