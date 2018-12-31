@@ -9,12 +9,12 @@ namespace NetCore.Extension
     {
         public static IConfiguration FindConfiguration(this IServiceCollection services)
         {
-            ServiceDescriptor val = ((IEnumerable<ServiceDescriptor>)services).FirstOrDefault((ServiceDescriptor s) => s.ServiceType == typeof(IConfiguration));
-            if (val == null)
+            ServiceDescriptor serviceDescriptor = ((IEnumerable<ServiceDescriptor>)services).FirstOrDefault((ServiceDescriptor s) => s.ServiceType == typeof(IConfiguration));
+            if (serviceDescriptor == null)
             {
                 return null;
             }
-            return val.ImplementationInstance as IConfiguration;
+            return serviceDescriptor.ImplementationInstance as IConfiguration;
         }
     }
 }
