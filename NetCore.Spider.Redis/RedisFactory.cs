@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal static class RedisFactory
     {

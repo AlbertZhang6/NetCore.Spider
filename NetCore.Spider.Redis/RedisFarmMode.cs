@@ -1,4 +1,4 @@
-﻿namespace NetCore.Spider.Redis
+﻿namespace NetCore.Redis
 {
     public enum RedisFarmMode
     {

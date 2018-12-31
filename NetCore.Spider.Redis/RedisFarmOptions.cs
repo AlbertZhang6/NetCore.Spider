@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     public class RedisFarmOptions
     {

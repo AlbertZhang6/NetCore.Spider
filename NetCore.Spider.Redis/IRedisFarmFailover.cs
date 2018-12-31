@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Caching.Redis;
 using System;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal interface IRedisFarmFailover : IDisposable
     {

@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NetCore.Spider.Extension
+namespace NetCore.Extension
 {
     public static class ServiceCollectionExtensions
     {

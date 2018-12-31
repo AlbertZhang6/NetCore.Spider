@@ -26,9 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Spider.WebApi", "Ne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{AE5E4D71-F9CB-477A-897A-7555C0419242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.Redis", "NetCore.Spider.Redis\NetCore.Spider.Redis.csproj", "{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Redis", "NetCore.Spider.Redis\NetCore.Redis.csproj", "{5FCE391D-1176-4F06-8F8A-B324CC9D2C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Spider.Extension", "NetCore.Spider.Extension\NetCore.Spider.Extension.csproj", "{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Extension", "NetCore.Spider.Extension\NetCore.Extension.csproj", "{786A5F4C-AC93-410F-9D0D-FC7E85FFFE0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
