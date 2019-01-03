@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal class MasterSlaveFailover : IRedisFarmFailover
     {

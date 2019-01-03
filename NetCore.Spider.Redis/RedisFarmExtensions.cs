@@ -1,10 +1,10 @@
-﻿using NetCore.Spider.Extension;
+﻿using NetCore.Extension;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     public static class RedisFarmExtensions
     {

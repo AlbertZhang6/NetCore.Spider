@@ -7,7 +7,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal class RedisFarm : IDistributedCache, IDisposable
     {

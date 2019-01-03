@@ -5,7 +5,7 @@ using System;
 using System.Net;
 using System.Threading;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal class SentinelFailover : IRedisFarmFailover, IDisposable
     {

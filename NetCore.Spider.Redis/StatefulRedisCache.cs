@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Caching.Redis;
 using Microsoft.Extensions.Options;
 
-namespace NetCore.Spider.Redis
+namespace NetCore.Redis
 {
     internal class StatefulRedisCache : RedisCache
     {
