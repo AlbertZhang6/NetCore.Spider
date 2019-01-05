@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\NetCore",
-    "\\NetCore\\bin",
-    "\\NetCore\\bin\\Debug",
-    "\\NetCore\\bin\\Debug\\netcoreapp2.1"
+    "\\NetCore.Spider.WebApi"
   ],
-  "SelectedNode": "\\DB.txt",
+  "SelectedNode": "\\NetCore.Spider.WebApi\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

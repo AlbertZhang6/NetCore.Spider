@@ -9,8 +9,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Jwt\NetCore.Jwt.csproj" />
+    <ProjectReference Include="..\NetCore.Model\NetCore.Model.csproj" />
+    <ProjectReference Include="..\NetCore.Security\NetCore.Security.csproj" />
+    <ProjectReference Include="..\NetCore.Session\NetCore.Session.csproj" />
+    <ProjectReference Include="..\NetCore.Spider.Extension\NetCore.Extension.csproj" />
+    <ProjectReference Include="..\NetCore.Spider.Redis\NetCore.Redis.csproj" />
+    <ProjectReference Include="..\NetCore.WebApi\NetCore.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

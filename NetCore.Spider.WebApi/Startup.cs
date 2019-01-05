@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NetCore.Redis;
+using NetCore.Spider.WebApi.Shared;
+using NetCore.WebApi;
 
 namespace NetCore.Spider.WebApi
 {
@@ -24,7 +27,13 @@ namespace NetCore.Spider.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddWebApi();
+
+            services.AddRedisFarmCache();
+
+            services.Configure<AppOptions>(Configuration.GetSection("App"));
+
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,7 +44,7 @@ namespace NetCore.Spider.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseWebApi();
         }
     }
 }
