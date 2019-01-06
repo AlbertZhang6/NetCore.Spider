@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -34,7 +35,11 @@ namespace NetCore.Spider.WebApi
             services.AddRedisFarmCache();
             services.AddTransient<ISecurity,SecurityService>();
             services.Configure<AppOptions>(Configuration.GetSection("App"));
-
+            MapperConfiguration mapperConfiguration = new MapperConfiguration(c =>
+            {
+                c.AddProfile<Mapping>();
+            });
+            services.AddSingleton<IMapper>(mapperConfiguration.CreateMapper());
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
