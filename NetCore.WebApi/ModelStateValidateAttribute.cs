@@ -12,11 +12,6 @@ namespace NetCore.WebApi
                 context.Result = (new BadRequestObjectResult(context.ModelState));
             }
         }
-
-        public ModelStateValidateAttribute()
-            : base()
-        {
-        }
     }
 
 }

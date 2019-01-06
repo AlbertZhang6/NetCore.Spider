@@ -4,8 +4,8 @@ using System;
 
 namespace NetCore.WebApi
 {
-    [Produces("application/json", new string[]{})]
-    [ResponseCache(/*Could not decode attribute arguments.*/)]
+    [Produces("application/json")]
+    [ResponseCache(Duration = 1, Location = ResponseCacheLocation.None)]
     [VoidApiResult]
     [ApiErrorReply(Order = int.MaxValue)]
     public abstract class ApiController : ControllerBase
@@ -34,11 +34,6 @@ namespace NetCore.WebApi
                 identity.Bind(this.User);
             }
             return identity as TIdentity;
-        }
-
-        protected ApiController()
-            : base()
-        {
         }
     }
 }

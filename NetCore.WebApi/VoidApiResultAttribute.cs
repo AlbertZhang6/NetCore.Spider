@@ -12,10 +12,5 @@ namespace NetCore.WebApi
                 context.Result = new NoContentResult();
             }
         }
-
-        public VoidApiResultAttribute()
-            : base()
-        {
-        }
     }
 }

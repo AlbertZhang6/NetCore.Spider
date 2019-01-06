@@ -27,10 +27,5 @@ namespace NetCore.WebApi
         {
             return Guid.NewGuid().ToString().ToUpper();
         }
-
-        public ApiErrorReplyAttribute()
-            : base()
-        {
-        }
     }
 }
