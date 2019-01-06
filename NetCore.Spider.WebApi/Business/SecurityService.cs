@@ -9,9 +9,9 @@ namespace NetCore.Spider.WebApi.Business
 {
     public class SecurityService : ISecurity
     {
-        public Task<LoginResult> Login(LoginModel model)
+        public async Task<LoginResult> Login(LoginModel model)
         {
-            throw new NotImplementedException();
+            return new LoginResult() {  CurrentLoginStatus = LoginStatus.Success};
         }
 
         public Task Logout()

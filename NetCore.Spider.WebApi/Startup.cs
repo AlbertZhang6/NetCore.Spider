@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NetCore.Redis;
+using NetCore.Spider.WebApi.Business;
+using NetCore.Spider.WebApi.Interfaces;
 using NetCore.Spider.WebApi.Shared;
 using NetCore.WebApi;
 
@@ -30,7 +32,7 @@ namespace NetCore.Spider.WebApi
             services.AddWebApi();
 
             services.AddRedisFarmCache();
-
+            services.AddTransient<ISecurity,SecurityService>();
             services.Configure<AppOptions>(Configuration.GetSection("App"));
 
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
